@@ -14,7 +14,6 @@ $books =
   5=>["HTML", "15000"]
 ];
 
-
 if (isset($id))
 {
   if($id > 0 && $id < 6)
@@ -26,7 +25,6 @@ if (isset($id))
 }
 else
   response(NULL,NULL, NULL, NULL, 400,"Invalid Request");
-
 
 function response($id,$text,$book,$price, $code,$desc)
 {
